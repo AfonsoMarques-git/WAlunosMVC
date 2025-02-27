@@ -139,6 +139,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -158,6 +159,11 @@
     <None Include="packages.config" />
     <Content Include="Views\Login.cshtml" />
     <Content Include="Views\Registo.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Aluno\CriaAluno.cshtml" />
+    <Content Include="Views\Aluno\DetalheAluno.cshtml" />
+    <Content Include="Views\Aluno\ListaAluno.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

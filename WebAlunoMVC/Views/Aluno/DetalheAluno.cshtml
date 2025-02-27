@@ -1,0 +1,74 @@
+﻿@model WebAlunoMVC.Models.Aluno
+
+@{
+    ViewBag.Title = "DetalheAluno";
+}
+
+<h2>DetalheAluno</h2>
+
+<div>
+    <h4>Aluno</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NAluno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NAluno)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrimeiroNome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrimeiroNome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UltimoNome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UltimoNome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Morada)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Morada)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataNascimento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataNascimento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AnoEscolaridade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnoEscolaridade)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImagePath)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImagePath)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
