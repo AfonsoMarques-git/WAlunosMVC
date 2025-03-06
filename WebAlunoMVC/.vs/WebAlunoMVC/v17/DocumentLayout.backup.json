@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\afons\\source\\repos\\WAlunosMVC\\WebAlunoMVC\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{8E11D4CF-33DC-4316-916D-DA949AECCEAF}|WebAlunoMVC.csproj|c:\\users\\afons\\source\\repos\\walunosmvc\\webalunomvc\\views\\aluno\\listaaluno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8E11D4CF-33DC-4316-916D-DA949AECCEAF}|WebAlunoMVC.csproj|solutionrelative:views\\aluno\\listaaluno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E11D4CF-33DC-4316-916D-DA949AECCEAF}|WebAlunoMVC.csproj|c:\\users\\afons\\source\\repos\\walunosmvc\\webalunomvc\\views\\aluno\\detalhealuno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8E11D4CF-33DC-4316-916D-DA949AECCEAF}|WebAlunoMVC.csproj|solutionrelative:views\\aluno\\detalhealuno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E11D4CF-33DC-4316-916D-DA949AECCEAF}|WebAlunoMVC.csproj|c:\\users\\afons\\source\\repos\\walunosmvc\\webalunomvc\\views\\aluno\\criaaluno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8E11D4CF-33DC-4316-916D-DA949AECCEAF}|WebAlunoMVC.csproj|solutionrelative:views\\aluno\\criaaluno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ListaAluno.cshtml",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\WAlunosMVC\\WebAlunoMVC\\Views\\Aluno\\ListaAluno.cshtml",
-              "RelativeDocumentMoniker": "Views\\Aluno\\ListaAluno.cshtml",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\WAlunosMVC\\WebAlunoMVC\\Views\\Aluno\\ListaAluno.cshtml",
-              "RelativeToolTip": "Views\\Aluno\\ListaAluno.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T15:29:57.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DetalheAluno.cshtml",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\WAlunosMVC\\WebAlunoMVC\\Views\\Aluno\\DetalheAluno.cshtml",
-              "RelativeDocumentMoniker": "Views\\Aluno\\DetalheAluno.cshtml",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\WAlunosMVC\\WebAlunoMVC\\Views\\Aluno\\DetalheAluno.cshtml",
-              "RelativeToolTip": "Views\\Aluno\\DetalheAluno.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T15:29:34.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CriaAluno.cshtml",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\WAlunosMVC\\WebAlunoMVC\\Views\\Aluno\\CriaAluno.cshtml",
-              "RelativeDocumentMoniker": "Views\\Aluno\\CriaAluno.cshtml",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\WAlunosMVC\\WebAlunoMVC\\Views\\Aluno\\CriaAluno.cshtml",
-              "RelativeToolTip": "Views\\Aluno\\CriaAluno.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T15:21:44.581Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

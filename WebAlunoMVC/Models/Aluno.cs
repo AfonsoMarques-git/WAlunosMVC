@@ -14,14 +14,14 @@ namespace WebAlunoMVC.Models
 
         [Required]
         [Display(Name = "Primeiro Nome")]
-        public int PrimeiroNome { get; set; }
+        public string PrimeiroNome { get; set; }
 
         [Required]
         [Display(Name = "Último Nome")]
-        public int UltimoNome { get; set; }
+        public string UltimoNome { get; set; }
 
         [Required]
-        public int Morada { get; set; }
+        public string Morada { get; set; }
 
         [Required]
         public Sexo Sexo { get; set; }
