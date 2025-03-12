@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.Remoting.Messaging;
 using System.Runtime.Remoting.Metadata.W3cXsd2001;
+using System.Security.Cryptography;
 using System.Web;
 using System.Web.Mvc;
 using MySql.Data.MySqlClient;
@@ -114,6 +115,49 @@ namespace WebAlunoMVC.Controllers
             catch (Exception ex)
             {
                 return View("Erro", new HandleErrorInfo(ex, "Aluno", "CriaAluno"));
+            }
+        }
+
+        public ActionResult DetalheAluno(int? id)
+        {
+            try
+            {
+                if (Session["Login"] == null) return RedirectToAction("Login", "Registo");
+
+                ConexaoBD conn = new ConexaoBD("localhost", 3306, "root", "", "formacao");
+                Aluno aluno = null;
+
+                using (MySqlConnection conexao = conn.ObterConexao())
+                {
+                    if (conexao != null)
+                    {
+                        using (MySqlCommand cmd = new MySqlCommand("Select * from alunos where " + "id_aluno=@idaluno", conexao))
+                        {
+                            cmd.Parameters.AddWithValue("@idaluno", id);
+                            using (MySqlDataReader reader = cmd.ExecuteReader())
+                            {
+                                if (reader.Read())
+                                {
+                                    aluno = new Aluno()
+                                    {
+                                        NAluno = reader.GetInt32("id_aluno"),
+                                        PrimeiroNome = reader.GetString("primeiro_nome"),
+                                        UltimoNome = reader.GetString("ultimo_nome"),
+                                        Morada = reader.GetString("morada"),
+                                        Sexo = reader.GetString("sexo") == "Masculino" ? Sexo.Masculino : Sexo.Feminino,
+                                        DataNascimento = reader.GetDateTime("data_de_nascimento"),
+                                        AnoEscolaridade = reader.GetInt16("ano_de_escolaridade"),
+                                        ImagePath = reader.GetString("foto")
+                                    };
+
+                                    return View(aluno);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                return RedirectToAction("ListaAlunos");
             }
         }
     }
