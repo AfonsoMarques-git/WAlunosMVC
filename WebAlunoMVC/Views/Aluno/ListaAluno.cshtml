@@ -7,7 +7,7 @@
 <h2>ListaAluno</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("CriaAluno", "CriaAluno")
 </p>
 <table class="table">
     <tr>
@@ -59,9 +59,9 @@
             @Html.DisplayFor(modelItem => item.ImagePath)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            @Html.ActionLink("EditaAluno", "EditaAluno", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("DetalheAluno", "DetalheAluno", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("EliminarAluno", "EliminarAluno", new { /* id=item.PrimaryKey */ })
         </td>
     </tr>
 }
